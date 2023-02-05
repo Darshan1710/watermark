@@ -1,0 +1,16 @@
+
+.inner-table	
+{
+	width:60%;
+	padding:20px 0 20px 10px;
+	border:1px solid lightgray;
+	border-radius:15px;
+	margin-bottom:20px;
+}
+.id-form-head{
+	line-height: 28px;
+	min-width: 130px;
+	padding: 0 0 10px 0;
+	text-align: right;
+	width: 130px;
+}
