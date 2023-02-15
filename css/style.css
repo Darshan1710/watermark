@@ -1,126 +1,1 @@
-@charset "utf-8";
-/* CSS Document
-
-
-
-avantgarde_md_btmedium
-avant-condensed
- */
-
-
-body{ margin:0; padding:0; font-family:"avantgarde"; font-size:14px; color:#fff; }
-
-.wrapper{width:87%; float:left; }
-
-.clr{clear:both;}
-.header{width:88%; float:left; margin-top: 15px; height:50px; line-height:50px; margin-left:9%; background:#000; padding:0 1.5%;}
-.logo{float:left; width:22%; }
-
-
-.menu{float:right; margin-top:17px;  height:30px; width:72%;}
-
-.menu ul{margin:0; padding:0;}
-.menu ul li{margin:0; padding:0 0 0 3.7%; list-style:none; float:left;}
-
-.menu ul li a{margin:0; padding:0; display:block; line-height:40px; float:left; text-decoration:none; color:#FFFFFF;  font-size:15px; height:30px; border-bottom:3px solid #000;}
-.menu ul li a:hover, .menu ul li a.selected{border-bottom:3px solid #008cd2; color:#008cd2;}
-
-
-
-
-/*.header{width:79%; float:left; margin-top: 15px; height:50px; line-height:50px; margin-left:18%; background:#000; padding:0 1.5%;}
-.logo{float:left; width:22%;}
-
-.menu{float:right; height:50px;}
-
-.menu ul{margin:0; padding:0;}
-.menu ul li{margin:0; padding:0; list-style:none; float:left;}
-
-.menu ul li a{margin:0; padding:0; display:block; width:100%; float:left; text-decoration:none; color:#FFFFFF; padding:0 20%;  font-size:16px;}
-.menu ul li a:hover{background:url(../images/menu-bottom.jpg) bottom center no-repeat;}
-*/
-
-
-.container1{width:86.5%; float:left; margin-top:7%; margin-left:9%; margin-bottom:4%; background:url(../images/bg.png) repeat; padding:2% 2.5% 3% 2%; min-height:360px;}
-
-h1{font-size:28px; margin:0; padding:0; font-family:"avantgarde_md_btmedium"; font-weight:bold; margin-bottom:12px;}
-h2{font-size:18px; margin:0; padding:0; font-family:"avantgarde"; font-weight:normal}
-h4{font-size:13px; margin:0; padding:0; font-family:"avantgarde"; font-weight:normal; margin-bottom:10px;}
-
-.gallery_container{width:89%; float:left; margin-top:7%; margin-left:9%; margin-bottom:4%; background:url(../images/bg.png) repeat; padding:0% 0% 0% 2%;   }
-
-.leftDiv{float:left; width:25%; height:auto; padding-right:3%;}
-.gallery_container .leftDiv{float:left; width:25%; height:auto; padding-right:3%; padding-top:2%;}
-
-.rightDiv{float:left; width:70%; height:auto; padding-left:2%; letter-spacing:1px; text-align:justify; line-height:16px; }
-.gallery_container .rightDiv{float:left; width:70%; height:auto;  letter-spacing:1px; text-align:justify; line-height:16px; }
-
-
-.rightDiv p{margin:4px 0 12px 0; padding:0;}
-
-.scrollbar-path-vertical {
-    right: 0px; 
-    top: 0!important; 
-    height: 360px!important; 
-    width: 4px; 
-}
-
-.scrollbars{width:100%;height:360px}
-
-.rightDiv ul{padding:0 0 15px 20px; margin:0;}
-.rightDiv ul li{padding:0 0 0 8px; margin:0; line-height:18px;}
-.rightDiv a.mail{color:#FFFFFF; font-size:14px;}
-
-.rightDiv .clients{width:142px; height:auto; float:left; margin-right:32px; margin-bottom:30px;}
-.rightDiv .clients img{border:0; width:100%;}
-
-
-.portfolio{width:60%; float:left; margin:0; display:block}
-
-.bigmenuDiv{ display:none }
-
-.portfolio ul{margin:0; padding:0;}
-.portfolio ul li{margin:0; padding:0; list-style:none; position:relative;}
-
-
-.portfolio ul li a{margin:0 2px 2px 0; padding:0; display:inline-block; padding:0% 0 0% 10%; height:25px; line-height:25px; color:#fff; background:#999999; text-decoration:none; width:89%; }
-.portfolio ul li a:hover{color:#000;}
-
-.portfolio ul li ul li{float: none; position: relative; }
-
-
-.portfolio ul li a#submenu{background:#999999 url(../images/v-menu.png) top right no-repeat;}
-.portfolio ul li a#submenu:hover{background:#999999 url(../images/v-menu-hover.png) top right no-repeat;}
-
-.portfolio ul li ul{position: absolute; top:0px; left:100%; display: none; width:155px; z-index:8888; }
-.portfolio ul li:hover > ul{display: block;}
-
-.portfolio ul li:hover > a#submenu{background:#999999 url(../images/v-menu-hover.png) top right no-repeat; color:#000000}
-
-.portfolio ul li a.selected{color: #000;}
-
-p.sayings{ text-align:right; padding-bottom:12px; padding-top:0}
-
-td{text-align:left; font-size:14px;}
-
-.textbox{width:220px; float:left; height:26px; line-height:26px; padding:0 6px; background:#838282; border:none; margin-bottom:5px; color:#FFFFFF; font-family:"avantgarde"; font-size:15px; }
-
-
-.tdwidth{width:28%;}
-
-.btn{background:#0092D5; color:#FFFFFF; padding:5px 15px; float:left; border:none; cursor:pointer}
-
-
-.teammember{ width:320px; float:left; margin-right:30px; position:relative; margin-bottom:42px; margin-top:5px; }
-.teammember .imgDiv{width: 98px; height:auto; position:relative; left:0; bottom:0;}
-.teammember .imgDiv img{border:1px solid #fff;}
-.teammember .info{width:212px; position:absolute; bottom:0; right:0; padding-left:8px; text-align:left}
-.teammember .info .name{width:100%; border-bottom:1px solid #bfbfbf; padding:0 0 3px 0;}
-.teammember .info .designation{width:100%; font-size:13px; padding:2px 0 0px 0;}
-
-ul li.awards{padding:0 0 17% 0;}
-
-.galleryImg{margin:5px 20px 10px 0; float:left; width:110px; height:200px; text-align:center}
-.galleryImg img{margin-bottom:5px;}
-.galleryImg a{color:#FFFFFF; text-decoration:none; text-align:center;}
-
+@charset "utf-8";/* CSS Documentavantgarde_md_btmediumavant-condensed */body{ margin:0; padding:0; font-family:"avantgarde"; font-size:14px; color:#fff; }.wrapper{width:87%; float:left; }.clr{clear:both;}.header{width:88%; float:left; margin-top: 15px; height:50px; line-height:50px; margin-left:9%; background:#000; padding:0 1.5%;}.logo{ width:22%; text-align: center}.menu{float:right; margin-top:17px;  height:30px; width:72%;}.menu ul{margin:0; padding:0;}.menu ul li{margin:0; padding:0 0 0 3.7%; list-style:none; float:left;}.menu ul li a{margin:0; padding:0; display:block; line-height:40px; float:left; text-decoration:none; color:#FFFFFF;  font-size:15px; height:30px; border-bottom:3px solid #000;}.menu ul li a:hover, .menu ul li a.selected{border-bottom:3px solid #008cd2; color:#008cd2;}/*.header{width:79%; float:left; margin-top: 15px; height:50px; line-height:50px; margin-left:18%; background:#000; padding:0 1.5%;}.logo{float:left; width:22%;}.menu{float:right; height:50px;}.menu ul{margin:0; padding:0;}.menu ul li{margin:0; padding:0; list-style:none; float:left;}.menu ul li a{margin:0; padding:0; display:block; width:100%; float:left; text-decoration:none; color:#FFFFFF; padding:0 20%;  font-size:16px;}.menu ul li a:hover{background:url(../images/menu-bottom.jpg) bottom center no-repeat;}*/.container1{width:1115px; float:left; margin-top:4%; margin-left:4%; margin-bottom:4%; background:url(../images/bg.png) repeat; padding:2% 2.5% 3% 2%; min-height:360px;}h1{font-size:28px; margin:0; padding:0; font-family:"avantgarde_md_btmedium"; font-weight:bold; margin-bottom:12px;}h2{font-size:18px; margin:0; padding:0; font-family:"avantgarde"; font-weight:normal}h4{font-size:13px; margin:0; padding:0; font-family:"avantgarde"; font-weight:normal; margin-bottom:10px;}.gallery_container{width:1140px; float:left; margin-top:4%; margin-left:4%; margin-bottom:4%; background:url(../images/bg.png) repeat; padding:0% 0% 0% 2%;   }.leftDiv{float:left; width:25%; height:auto; padding-right:3%;}.gallery_container .leftDiv{float:left; width:25%; height:auto; padding-right:3%; padding-top:2%;}.rightDiv{float:left; width:70%; height:auto; padding-left:2%; letter-spacing:1px; text-align:justify; line-height:16px; }.gallery_container .rightDiv{float:left; width:70%; height:auto;  letter-spacing:1px; text-align:justify; line-height:16px; }.rightDiv p{margin:4px 0 12px 0; padding:0;}.scrollbar-path-vertical {    right: 0px;     top: 0!important;     height: 360px!important;     width: 4px; }.scrollbars{width:100%;height:360px}.rightDiv ul{padding:0 0 15px 20px; margin:0;}.rightDiv ul li{padding:0 0 0 8px; margin:0; line-height:18px;}.rightDiv a.mail{color:#FFFFFF; font-size:14px;}.rightDiv .clients{width:142px; height:auto; float:left; margin-right:32px; margin-bottom:30px;}.rightDiv .clients img{border:0; width:100%;}.portfolio{width:60%; float:left; margin:0; display:block}.bigmenuDiv{ display:none }.portfolio ul{margin:0; padding:0;}.portfolio ul li{margin:0; padding:0; list-style:none; position:relative;}.portfolio ul li a{margin:0 2px 2px 0; padding:0; display:inline-block; padding:0% 0 0% 10%; height:25px; line-height:25px; color:#fff; background:#999999; text-decoration:none; width:89%; }.portfolio ul li a:hover{color:#000;}.portfolio ul li ul li{float: none; position: relative; }.portfolio ul li a#submenu{background:#999999 url(../images/v-menu.png) top right no-repeat;}.portfolio ul li a#submenu:hover{background:#999999 url(../images/v-menu-hover.png) top right no-repeat;}.portfolio ul li ul{position: absolute; top:0px; left:100%; display: none; width:155px; z-index:8888; }.portfolio ul li:hover > ul{display: block;}.portfolio ul li:hover > a#submenu{background:#999999 url(../images/v-menu-hover.png) top right no-repeat; color:#000000}.portfolio ul li a.selected{color: #000;}p.sayings{ text-align:right; padding-bottom:12px; padding-top:0}td{text-align:left; font-size:14px;}.textbox{width:220px; float:left; height:26px; line-height:26px; padding:0 6px; background:#838282; border:none; margin-bottom:5px; color:#FFFFFF; font-family:"avantgarde"; font-size:15px; }.tdwidth{width:28%;}.btn{background:#0092D5; color:#FFFFFF; padding:5px 15px; float:left; border:none; cursor:pointer}.teammember{ width:320px; float:left; margin-right:30px; position:relative; margin-bottom:42px; margin-top:5px; }.teammember .imgDiv{width: 98px; height:auto; position:relative; left:0; bottom:0;}.teammember .imgDiv img{border:1px solid #fff;}.teammember .info{width:212px; position:absolute; bottom:0; right:0; padding-left:8px; text-align:left}.teammember .info .name{width:100%; border-bottom:1px solid #bfbfbf; padding:0 0 3px 0;}.teammember .info .designation{width:100%; font-size:13px; padding:2px 0 0px 0;}ul li.awards{padding:0 0 17% 0;}.galleryImg{margin:5px 20px 10px 0; float:left; width:110px; height:200px; text-align:center}.galleryImg img{margin-bottom:5px;}.galleryImg a{color:#FFFFFF; text-decoration:none; text-align:center;}.error{    color: red;}.portfolio ul li:hover > a.submenu {    background: #999999 url(../images/v-menu-hover.png) top right no-repeat;    color: #fff;}.portfolio ul li > a.submenu {    background: #999999 url(../images/v-menu-hover.png) top right no-repeat;    color: #fff;}
